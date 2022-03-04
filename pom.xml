@@ -61,14 +61,6 @@
 		</plugins>
 	</build>
 
-	<dependencies>
-		<dependency>
-			<artifactId>socket-engine</artifactId>
-			<groupId>br.com.github.puti.engine.socket</groupId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
-
 	<distributionManagement>
 		<repository>
 			<id>github</id>
