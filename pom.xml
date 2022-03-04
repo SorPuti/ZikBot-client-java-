@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.githu.zik.client.api</groupId>
-	<artifactId>ZikBot-connector</artifactId>
+	<artifactId>ZikBot-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
@@ -61,11 +61,19 @@
 		</plugins>
 	</build>
 
+	<dependencies>
+		<dependency>
+			<artifactId>socket-engine</artifactId>
+			<groupId>br.com.github.puti.engine.socket</groupId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
 	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub sorputi Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/sorputi/ZikBot-server-java</url>
+			<url>https://maven.pkg.github.com/sorputi/ZikBot-client-java</url>
 		</repository>
 	</distributionManagement>
 </project>
